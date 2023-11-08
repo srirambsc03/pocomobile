@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 30px;
+}
+.container-box{
+    position: relative;
+    margin: 50px;
+    display: flex;
+    height: 600px;
+    width: 320px;
+    color: yellow;
+    background: yellow;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 10px 20px 2px 20px;
+}
+.box1{
+    position: relative;
+    display: flex;
+    top: -170px;
+    left: 10px;
+    height: 207px;
+    width: 400px;
+    box-shadow: 1px 3px 10px 1px black;
+    background: black;
+    border-radius: 20px;
+}
+.box2{
+    position: relative;
+    display: flex;
+    height: 80px;
+    width: 120px;
+    background: #2e2626;
+    border-radius: 10px;
+    left: 10px;
+    top: 10px;
+    border: 4px solid rgb(56, 48, 48);
+    box-shadow: 2px 6px 100px 2px rgb(51, 46, 46);
+}
+.box3{
+    height: 70px;
+    width: 70px;
+    border: 2px solid rgb(51, 46, 46);
+    position: relative;
+    border-radius: 50px;
+    left: 5px;
+    top: 4px;
+    display: grid;
+    background:repeating-radial-gradient(circle, rgb(77, 18, 18) 40%,rgb(37, 37, 27) 10%,rgb(4, 15, 4) 80%);
+}
+.camera0{
+    position: relative;
+    height: 94px;
+    width: 120px;
+    background: #2b2020;
+    top: 100px;
+    right: 117px;
+    border-radius: 20px;
+    background:#2e2626;
+    border: 3px solid  rgb(63, 56, 56);
+    box-shadow: 2px 6px 90px 2px rgb(51, 46, 46);
+
+}
+.nextbox{
+    height: 35px;
+    width: 35px;
+    border: 5px solid  rgb(56, 48, 48);
+    border-radius: 50px;
+    position: relative;
+    background:repeating-radial-gradient(circle, rgb(6, 29, 236) 30%,rgb(5, 1, 240) 10%,rgb(4, 2, 27) 80%);
+    left: 7px;
+    top: 2px;
+}
+.camera1{
+    height: 35px;
+    width: 35px;
+    border: 5px solid  rgb(56, 48, 48);
+    border-radius: 50px;
+    background:repeating-radial-gradient(circle, rgb(240, 9, 9) 10%,rgb(7, 0, 0) 50%,rgb(4, 15, 4) 80%);
+    position: relative;
+    left: 7px;
+    top: 4px;
+}
+.camera2{
+    height: 35px;
+    width: 35px;
+    border: 5px solid  rgb(56, 48, 48);
+    border-radius: 50px;
+    background:repeating-radial-gradient(circle, rgb(77, 18, 18) 40%,rgb(10, 10, 7) 10%,rgb(4, 15, 4) 80%);
+    position: relative;
+    left: 60px;
+    top: -40px;
+}
+.camera3{
+    height: 35px;
+    width: 35px;
+    border: 5px solid  rgb(56, 48, 48);
+    border-radius: 50px;
+    background:repeating-radial-gradient(circle, rgb(77, 18, 18) 40%,rgb(230, 230, 218) 60%,rgb(4, 15, 4) 80%);
+    position: relative;
+    left: 60px;
+    top: -130px;
+}
+.camera2 .cam3{
+    position: relative;
+    left: -1px;
+    color: white;
+    top: -1px;
+    text-shadow: 0px 0px gray ;
+    transform: rotate(270deg);
+}
+.whole{
+    height: 198px;
+    width: 130px;
+    top: 3px;
+    position: absolute;
+    background: gray;
+    right: 180px;
+    border-radius: 20px;
+    border: 2px solid gray;
+}
+.mp{
+    position:relative;
+    left: 40px;
+    font-size: 19px;
+    color:  rgb(68, 59, 59);
+    transform: rotate(270deg);
+}
+.poco{
+    color: white;
+    position: absolute;
+    top: -10px;
+    font-size: 30px;
+    left: 200px;
+    transform: rotate(270deg);
+}
+.poco1{
+    display: flex;
+    color: white;
+    position: relative;
+    top: -190px;
+    font-size: 10px;
+    left: 220px;
+    transform: rotate(270deg);
+    word-spacing: 2px;
+    font-family:sans-serif;
+    font-weight: 600;
+}
+.poco5g{
+    border: 2px solid gold;
+    display: flex;
+    height: 20px;
+    border-radius: 10px;
+    width: 40px;
+    justify-content: center;
+    color: white;
+    position: relative;
+    top: 190px;
+    font-size: 15px;
+    left: -20px;
+    transform: rotate(270deg);
+    font-family:sans-serif;
+    font-weight: 600;
+}
+.line{
+    height: 100px;
+    width: 5px;
+    background: rgb(219, 219, 18);
+    position: absolute;
+    bottom:10px;
+    left: -38px;
+    border-radius: 10px;
+}
+.line1{
+    height: 50px;
+    width: 5px;
+    background: rgb(219, 219, 18);
+    position: absolute;
+    bottom:-50px;
+    left: -38px;
+    border-radius: 10px;
+}
